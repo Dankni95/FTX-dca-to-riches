@@ -1,0 +1,25 @@
+{
+  "name": "ftx-dca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ftx-api-client": "^1.0.0",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.4.1",
+    "node-schedule": "^2.1.0",
+    "toad-scheduler": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
